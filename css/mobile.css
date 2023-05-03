@@ -1,11 +1,13 @@
-* {
-    max-width: 480px;
+body {
+    width: 480px;
 }
 header {
     background-color: black;
     width: 480px;
     height: 40px;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 nav {
     display: flex;
@@ -79,4 +81,35 @@ div a {
     display: flex;
     margin-top: 20px;
     margin-left: 30px;
+}
+.title2 {
+    display: flex;
+}
+h2 {
+    font-size: 30px;
+    margin: 30px 60px;
+}
+.articles {
+    margin: 0 15px;
+}
+.card {
+    display: flex;
+    margin: 20px 20px;
+}
+article img {
+    width: 80px;
+    height: 80px;
+}
+.article p {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+footer ul {
+    justify-content: space-between;
 }
