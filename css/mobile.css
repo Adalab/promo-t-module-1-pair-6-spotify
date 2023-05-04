@@ -1,5 +1,7 @@
 body {
-    width: 480px;
+    @media screen and (max-width: 480px) {
+        
+    }
 }
 header {
     background-color: black;
@@ -38,7 +40,7 @@ li a {
 }
 .hero {
     width: 480px;
-    height: 550px;
+    height: 600px;
     background-color: rgb(73, 145, 204);
     color: white;
     display: flex;
@@ -48,6 +50,7 @@ li a {
     font-size: 45px;
     padding-top: 130px;
     padding-left: 20px;
+    line-height: 60px;
 }
 .subtitle {
     font-size: 25px;
@@ -55,12 +58,20 @@ li a {
     word-spacing: 5px;
     padding-left: 20px;
     padding-top: 20px;
+    line-height: 40px;
 }
+
+.verplanes {
+    text-transform: uppercase;
+    font-weight: bold ;
+}
+
 .info {
     font-size: 15px;
     word-break: keep-all;
     padding-left: 20px;
     padding-top: 40px;
+    line-height: 20px;
 }
 .hero div {
     padding-left: 20px;
@@ -92,6 +103,7 @@ h2 {
 .articles {
     margin: 0 15px;
 }
+
 .card {
     display: flex;
     margin: 20px 20px;
