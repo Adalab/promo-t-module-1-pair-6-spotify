@@ -107,8 +107,9 @@ div a {
     display: flex;
 }
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 30px 60px;
+    text-align: center;
 }
 .articles {
     margin: 0 15px;
@@ -126,14 +127,29 @@ article img {
     display: block;
 }
 
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
 footer {
     width: 480px;
-    height: 60px;
+    height: 80px;
     background-color: black;
     display: flex;
 }
-footer ul {
-    justify-content: space-between;
+.footer-2 {
+    color: white;
+}
+.footer-2 .f2 {
+    display: inline-block;
+}
+.footer {
+   display: inline;
+   position: relative;
+   top: 40px;
+}
+.footer .f {
+    display: inline-block;
 }
 /*no funciona el display none del nav*/
 @media screen (min-width: 480px) {
