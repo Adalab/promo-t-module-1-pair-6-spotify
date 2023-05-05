@@ -1,19 +1,9 @@
 :root {
     font-family: 'Roboto', sans-serif;
 }
-/*Creo que las mediaqueries se usan al revés: primero pones @media y 
-dentro el elemento q quieres modificar. En este caso, creo que el body debería ser
-de 480px -para que así podamos indicar un width de 100% en las etiquetas o algo así- 
-y que el mediaq indique el tamaño que debe adoptar a partir de los
-breakpoints de tablet y ordenador*/
-
-body {
-    @media screen and (max-width: 480px) {        
-    }
-}
 header {
     background-color: black;
-    width: 480px;
+    width: 100%;
     height: 40px;
     display: flex;
     position: sticky;
@@ -47,20 +37,14 @@ li a {
     list-style: none;
 }
 .hero {
-    width: 480px;
     height: 600px;
     background-color: rgb(73, 145, 204);
     color: white;
-    display: flex;
-    display: block;
 }
 .hero h1 {
     font-size: 50px;
     padding: 130px 20px 20px 15px;
-    width: 480px;
     line-height: 60px;
-    flex-wrap: wrap;
-    /*No estoy segura de cómo funciona el wrap para q se adapte cuando la pantalla se haga mas chica y las palabras se desborden*/
 }
 .subtitle {
     font-size: 25px;
@@ -123,16 +107,11 @@ article img {
     width: 80px;
     height: 80px;
 }
-.article p {
-    display: block;
-}
-
 .foot {
     display: flex;
     justify-content: space-between;
 }
 footer {
-    width: 480px;
     height: 80px;
     background-color: black;
     display: flex;
@@ -151,8 +130,8 @@ footer {
 .footer .f {
     display: inline-block;
 }
-/*no funciona el display none del nav*/
-@media screen (min-width: 480px) {
+
+@media screen and (max-width: 480px) {
     nav {
         display: none;
     }
