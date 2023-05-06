@@ -1,16 +1,6 @@
 :root {
     font-family: 'Roboto', sans-serif;
 }
-/*Creo que las mediaqueries se usan al revés: primero pones @media y 
-dentro el elemento q quieres modificar. En este caso, creo que el body debería ser
-de 480px -para que así podamos indicar un width de 100% en las etiquetas o algo así- 
-y que el mediaq indique el tamaño que debe adoptar a partir de los
-breakpoints de tablet y ordenador*/
-
-body {
-    @media screen and (max-width: 480px) {        
-    }
-}
 header {
     background-color: black;
     width: 480px;
@@ -151,9 +141,5 @@ footer {
 .footer .f {
     display: inline-block;
 }
-/*no funciona el display none del nav*/
-@media screen (min-width: 480px) {
-    nav {
-        display: none;
-    }
-}
+
+    

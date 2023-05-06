@@ -1,0 +1,177 @@
+
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+**********
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 60%;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    margin: 2px;
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4px;
+}
+
+li {
+    text-decoration: none;
+    font-size: small;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(73, 145, 204);
+    color: white;
+    display: flex;
+    display: block;
+    justify-content: center;
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    padding: 130px 20px 20px 15px;
+    width: 100%;
+    line-height: 60px;
+    flex-wrap: wrap;
+    /*No estoy segura de cómo funciona el wrap para q se adapte cuando la pantalla se haga mas chica y las palabras se desborden*/
+}
+
+.subtitle {
+    font-size: 25px;
+    font: bold;
+    word-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+
+.verplanes {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+}
+
+.info {
+    font-size: 15px;
+    word-break: keep-all;
+    padding-left: 20px;
+    padding-top: 40px;
+    line-height: 20px;
+}
+
+.hero div {
+    padding-left: 20px;
+}
+
+.boton {
+    background-color: green;
+    border-radius: 20px;
+    display: block;
+}
+
+div a {
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    width: 380px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.title2 {
+    display: flex;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 30px 60px;
+    text-align: center;
+}
+
+.articles {
+    margin: 0 15px;
+}
+
+.card {
+    display: flex;
+    margin: 20px 20px;
+}
+
+article img {
+    width: 80px;
+    height: 80px;
+}
+
+.article p {
+    display: block;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+
+.footer-2 {
+    color: white;
+}
+
+.footer-2 .f2 {
+    display: inline-block;
+}
+
+.footer {
+    display: inline;
+    position: relative;
+    top: 40px;
+}
+
+.footer .f {
+    display: inline-block;
+}
