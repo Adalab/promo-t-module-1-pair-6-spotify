@@ -1,5 +1,4 @@
 
-
 main{
     display: flex;
     flex-flow: column wrap;
@@ -19,7 +18,6 @@ header {
     position: sticky;
     top: 0;
 }
-
 nav {
     display: flex;
     align-items: center;
