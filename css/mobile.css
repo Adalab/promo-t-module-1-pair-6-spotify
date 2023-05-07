@@ -4,7 +4,7 @@
 header {
     background-color: black;
     width: 100%;
-    height: 60px;
+    height: 7vh;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -13,23 +13,22 @@ header {
 nav {
     align-items: center;
     display: flex;
-    height: 40px;
+    height: 7vh;
 }
 .logo {
     height: 6vh;
-    margin: 2px;
-    padding: 8px;
+    margin: 0.7vh;
+    padding: 1vh;
 }
 .burger {
     height: 4vh;
     position: relative;
-    right: 1vh;
-    top: 1vh;
+    right: 1.5vh;
+    top: 1.5vh;
 }
-   
 nav ul {
     display: flex;
-    gap: 4px; 
+    gap: 2vh; 
 } 
 li {
     text-decoration: none;
@@ -41,28 +40,47 @@ li a {
     text-decoration: none;
     list-style: none;
 }
+
 .hero {
-    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    height: 120vh;
     background-color: rgb(73, 145, 204);
     color: white;
 }
-.hero h1 {
-    font-size: 50px;
-    padding: 130px 20px 20px 15px;
+h1 {
+    font-size: 10vh;
     line-height: 60px;
+    width: 100%;
+    font-weight: 900%;
 }
 .subtitle {
-    font-size: 25px;
+    font-size: 5vh;
     font: bold;
-    word-spacing: 5px;
-    padding-left: 20px;
-    padding-top: 20px;
-    line-height: 40px;
+    word-spacing: 0.5vh;
 }
-
+.boton {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 10vh;
+    width: 90%;
+    margin: 0 auto;
+}
 .verplanes {
+    background-color: green;
+    border-radius: 5vh;
     text-transform: uppercase;
     font-weight: bold ;
+    text-align: center;
+    padding-top: 3vh;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 95%;
 }
 
 .info {
@@ -71,26 +89,6 @@ li a {
     padding-left: 20px;
     padding-top: 40px;
     line-height: 20px;
-}
-.hero div {
-    padding-left: 20px;
-}
-.boton {
-    background-color: green;
-    border-radius: 20px;
-    display: block;
-}
-div a {
-    align-items: center;
-    margin-top: 15px;
-    color: white;
-    text-decoration: none;
-    width: 380px;
-    height: 50px;
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 .title2 {
     display: flex;
