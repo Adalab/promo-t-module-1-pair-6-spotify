@@ -96,30 +96,34 @@ h1 {
 
 .container {
 margin: 0 20px;
-background-color: blueviolet;
 }
 
 h2 {
-    font-size: 40px;
-    margin: 30px 60px;
+    width: 100%;
+    font-size: 2rem;
+    margin: 13vh 5vh;
     text-align: center;
 }
 .articles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    gap: 3vh;
-    /*margin: 0 15px;*/
+    justify-content: center;
+    gap: 5vh;
+    padding: 0 10vh 17vh;
 }
 
 .card {
+    height: 20vh;
+    width: 60vh;
     display: flex;
-    display: inline-block;
-    margin-left: 10vw;
+    margin: auto;
 }
 article img {
     width: 80px;
     height: 80px;
+}
+h3 {
+    margin: 2vh;
 }
 .foot {
     display: flex;
@@ -166,4 +170,8 @@ footer {
         
     }
 }
-
+ @media (min-width: 1000px) {
+    .articles {
+        flex-wrap: nowrap;
+    }
+ }
