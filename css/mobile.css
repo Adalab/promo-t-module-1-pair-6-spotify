@@ -93,6 +93,12 @@ h1 {
 .title2 {
     display: flex;
 }
+
+.container {
+margin: 0 20px;
+background-color: blueviolet;
+}
+
 h2 {
     font-size: 40px;
     margin: 30px 60px;
@@ -101,15 +107,15 @@ h2 {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: start;
     gap: 3vh;
     /*margin: 0 15px;*/
 }
 
 .card {
     display: flex;
-    margin: 20px 20px;
+    display: inline-block;
+    margin-left: 10vw;
 }
 article img {
     width: 80px;
@@ -151,12 +157,13 @@ footer {
         display: none;
     }
     .hero {
-        background-image: url(/images/girl.png);
+        background-image: url(../images/girl.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size:contain;
         background-position: absolute;
         background-position-x: right;
         background-position-y: bottom;
+        
     }
 }
 
